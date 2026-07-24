@@ -75,9 +75,36 @@
 
     </section>
 
-    <section class="portfolio" id="portfolio">
-        <!-- Portfolio Cards werden hier eingefügt -->
+    <section class="portfolio" id="portfolio" style="height: 500px">
+       <?php
+
+    $dir_name = __DIR__ . "/img/Video/";
+    $extensions = "*.{jpg,jpeg,png,gif,bmp,JPG,JPEG,PNG,GIF,BMP}";
+    $imgdir = $dir_name.$extensions;
+    $images = glob($dir_name.$extensions, GLOB_BRACE);
+
+    foreach( $images as $image ):
+        $image_name = substr($image, strripos($image, "/") + 1);
+        $remove_part = strlen($image_name) - strripos($image_name, "."); 
+        $image_name = substr($image_name, 0, strlen($image_name) - $remove_part);
+    ?>
+    <div class="portfolio-card">
+
+        <img src='<?=str_replace(__DIR__, "", $image)?>'>
+        <h3><?=ucwords($image_name)?></h3>
+        <h4>Tag</h4>
+        
+    </div>
+
+    <?php
+    endforeach;
+?>
+
     </section>
+    
+    <footer>
+        <?php include 'components/footer.php'; ?>
+    </footer>
 
     <script src="script.js"></script>
 </body>

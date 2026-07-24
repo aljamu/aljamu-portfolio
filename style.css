@@ -6,7 +6,7 @@ body {
 header {
     background-color: #191B27;
     text-align: center;
-    height: 50vh;
+    height: 30vh;
 }
 
 nav img {
@@ -52,7 +52,7 @@ nav a {
 }
 
 .header-content {
-    
+
     display: flex;  
     flex-direction: column;
     justify-content: center;
@@ -180,4 +180,12 @@ nav a {
     padding: 0 5px 0;
     font-size: 10px;
     font-weight: 500;
+}
+
+footer {
+    position: fixed; 
+    width: 100%; 
+    padding: 10px; 
+    text-align: center; 
+    bottom: 0;
 }
