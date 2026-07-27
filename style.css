@@ -74,10 +74,11 @@ nav a {
 }
 
 
-
-.portfolio-filter {
+.max_width{
     width:1000px;
-     margin: auto;
+    margin: auto;
+}
+.portfolio-filter {
     /*background-color: #FFC000;*/
     
 }
@@ -188,4 +189,14 @@ footer {
     padding: 10px; 
     text-align: center; 
     bottom: 0;
+    background-color: white;
+    height: 15px;
+}
+
+.text_justify{
+    text-align: justify;
+}
+
+.mt-0 {
+    margin-top: 0px;
 }

@@ -27,25 +27,25 @@
                 <li><a href="#">About me</a></li>
                 <li><a href=""><img class="logo" src="./img/JainzPixelArt.png" alt="Logo"></a></li>
                 <li><a href="#" class="fa fa-instagram"></a></li>
-                <li><a href="#" class="fa fa-github"></a></li>
+                <li><a href="https://github.com/aljamu/" class="fa fa-github" target="_blank"></a></li>
             </ul>
         </nav>
 
-        <div class="header-content">
+        <div class="header-content max_width">
 
             <h1>Hi, I am Jannes <span class="hand-emoji">&#9996;</span></h1>
-            <p class="subtitle">a multifaceted Media Designer and Engineer</p>
+            <p class="subtitle">Software Development and Multimedia Technologies</p>
 
         </div>
 
 
     </header>
 
-    <section class="portfolio-filter">
+    <section class="portfolio-filter max_width">
         <div class="portfolio-wrapper">
             <h1>Filter:</h1>
             <ul>
-                <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#191B27"
+                <li style="background-color: #94a1e93f"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#191B27"
                             class="bi bi-film" viewBox="0 0 16 16">
                             <path
                                 d="M0 1a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1zm4 0v6h8V1zm8 8H4v6h8zM1 1v2h2V1zm2 3H1v2h2zM1 7v2h2V7zm2 3H1v2h2zm-2 3v2h2v-2zM15 1h-2v2h2zm-2 3v2h2V4zm2 3h-2v2h2zm-2 3v2h2v-2zm2 3h-2v2h2z" />
@@ -75,38 +75,52 @@
 
     </section>
 
-    <section class="portfolio" id="portfolio" style="height: 500px">
+    <section class="portfolio max_width" id="portfolio">
+        <br>
        <?php
+            $videos = json_decode(file_get_contents(__DIR__ . "/data/videos.json"));
+            foreach($videos as $key => $val):
+            $filepath = "img/" . $val;
+        ?>
+        <div class="portfolio-card">
+            <img src='<?= $filepath?>' alt='<?= $key ?>'>
+            <h3><?=ucwords($key)?></h3>
+            <h4>Tag</h4>
+        </div>
 
-    $dir_name = __DIR__ . "/img/Video/";
-    $extensions = "*.{jpg,jpeg,png,gif,bmp,JPG,JPEG,PNG,GIF,BMP}";
-    $imgdir = $dir_name.$extensions;
-    $images = glob($dir_name.$extensions, GLOB_BRACE);
-
-    foreach( $images as $image ):
-        $image_name = substr($image, strripos($image, "/") + 1);
-        $remove_part = strlen($image_name) - strripos($image_name, "."); 
-        $image_name = substr($image_name, 0, strlen($image_name) - $remove_part);
-    ?>
-    <div class="portfolio-card">
-
-        <img src='<?=str_replace(__DIR__, "", $image)?>'>
-        <h3><?=ucwords($image_name)?></h3>
-        <h4>Tag</h4>
-        
-    </div>
-
-    <?php
-    endforeach;
-?>
-
+        <?php
+            endforeach;
+        ?>
     </section>
-    
+    <br>
+    <section style="margin-top: 20px; padding: 15px 0px;; padding: 30px 0px; background-color: #191B27; color: white;">
+        <div class="max_width">
+        <!--<h1>Karriere</h1>
+        -->
+        <div style="max-width: 480px; display: inline-block; margin-right: 15px; height: 300px;">
+            <h2 class="mt-0">Medientechniker (B.Eng)</h2>
+            <p class="text_justify">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. </p>
+            <p class="text_justify">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. </p>
+            <br>
+            <p class="text_justify"><span style="font-weight: bold">Skills:</span> Audio- & Videotechnik, Kommunikationstechnik, Journalismus, Medienkunde, Medienpädagogik</p>
+        </div>
+        <div style="max-width: 480px; display: inline-block; margin-left: 15px; height: 300px;">
+            <h2 class="mt-0">Fachinformatiker (FiAE)</h2> 
+            <p class="text_justify">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. </p>
+            <p class="text_justify">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. </p>
+                        <br>
+            <p class="text_justify"><span style="font-weight: bold">Skills:</span> Audio- & Videotechnik, Kommunikationstechnik, Journalismus, Medienkunde, Medienpädagogik</p>
+        </div>
+        <!--
+        <p class="text_justify" style="margin-bottom: 30px;">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. </p>
+        -->
+    </section>
+
     <footer>
         <?php include 'components/footer.php'; ?>
     </footer>
 
-    <script src="script.js"></script>
+    <!--<script src="script.js"></script>-->
 </body>
 
 </html>
