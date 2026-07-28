@@ -142,12 +142,16 @@ nav a {
 */
 
 
-.portfolio {
+.portfolio{
     width: 1000px;
     margin: auto;
+}
+
+.portfolio div{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+
 }
 
 .portfolio-card {
@@ -184,7 +188,6 @@ nav a {
 }
 
 footer {
-    position: fixed; 
     width: 100%; 
     padding: 10px; 
     text-align: center; 
@@ -199,4 +202,8 @@ footer {
 
 .mt-0 {
     margin-top: 0px;
+}
+
+.hidden {
+    display: none !important;
 }
