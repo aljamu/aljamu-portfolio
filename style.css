@@ -6,7 +6,19 @@ body {
 header {
     background-color: #191B27;
     text-align: center;
-    height: 30vh;
+    height: 400px;
+}
+
+.text_primary_color {
+    color: #191B27;
+}
+
+.backgorund_primary_color {
+    background-color: #191B27;
+}
+
+.text_highlight_color {
+    color: #FFC000;
 }
 
 nav img {
@@ -52,7 +64,6 @@ nav a {
 }
 
 .header-content {
-
     display: flex;  
     flex-direction: column;
     justify-content: center;
@@ -74,13 +85,15 @@ nav a {
 }
 
 
-.max_width{
+.section-style-regular{
     width:1000px;
-    margin: auto;
+    margin: 30px auto;
 }
+
 .portfolio-filter {
-    /*background-color: #FFC000;*/
-    
+        display: flex;
+    flex-wrap: wrap;
+    justify-content: right !important;
 }
 .portfolio-filter h1{
     font-size: smaller;
@@ -88,10 +101,15 @@ nav a {
     color: #191b27;
     margin-right: 10px;
 }
-.portfolio-wrapper{
+
+.portfolio-filter-wrapper{
     display: flex;
     justify-content: right;
     align-items: center;
+}
+
+.portfolio-filter-wrapper>h1, .portfolio-filter-wrapper>ul {
+    margin-top: 0px;
 }
 
 
@@ -112,46 +130,10 @@ nav a {
    /* background-color: #191B27; */
 }
 
-/* 
-@media only screen and (max-width: 768px) {
-    header {
-        padding: 20px 0;
-    }
-
-    .logo img {
-        width: 40px; /* Adjust size as needed 
-    }
-
-    nav {
-        margin-top: 10px;
-    }
-
-    nav li {
-        display: block;
-        margin: 10px 0;
-    }
-
-    .header-content {
-        margin-top: 40px;
-    }
-
-    .hand-emoji {
-        font-size: 20px;
-    }
-}
-*/
-
-
-.portfolio{
-    width: 1000px;
-    margin: auto;
-}
-
-.portfolio div{
+.portfolio_cards_wrapper{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-
 }
 
 .portfolio-card {
@@ -206,4 +188,8 @@ footer {
 
 .hidden {
     display: none !important;
+}
+
+.filter_active {
+    background-color: #94a1e93f;
 }
