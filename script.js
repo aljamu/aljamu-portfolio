@@ -1,5 +1,7 @@
 $("#audios").hide()
 
+$(".filter_item").on("click", handleCards)
+
 function handleCards(){
     item = $(this)
     itemName = item.attr("id")
