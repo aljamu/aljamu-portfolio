@@ -197,10 +197,15 @@ footer {
 .filter_active {
     background-color: #94a1e93f;
 }
+
 #trained_in p{
     hyphens: auto;
     overflow-wrap: normal;
     word-break: normal;
+}
+
+#trained_in h2{
+    font-weight: 400 !important;
 }
 
 .trained_wrapper {

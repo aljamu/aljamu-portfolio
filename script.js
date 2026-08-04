@@ -1,4 +1,6 @@
 $("#audios").hide()
+$("#blender").hide()
+$('#code').hide()
 
 $(".filter_item").on("click", handleCards)
 
