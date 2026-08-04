@@ -135,7 +135,7 @@
                 </div>
                 <div style="max-width: 480px;">
                     <h2 class="mt-0">Fachinformatiker (FiAE)</h2>
-                    <p class="text_justify">Während meines Studiums merkte ich schnell, dass mir die Programmierung
+                    <p class="text_justify">Während meines Studiums merkte ich, dass mir die Programmierung
                         besonders viel Freude bereitet und ich mich in diesem Bereich weiterentwickeln möchte. Genau
                         deshalb habe ich danach die
                         FiAE-Ausbildung begonnen – bewusst ohne weiteres Studium. Mit der Ausbildung wollte ich die
