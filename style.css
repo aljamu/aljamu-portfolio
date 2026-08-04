@@ -97,10 +97,14 @@ nav a {
 }
 .portfolio-filter h1{
     font-size: smaller;
-    font-weight: 400;
     color: #191b27;
     margin-right: 10px;
 }
+h1 {
+    font-weight: 400;
+}
+
+
 
 .portfolio-filter-wrapper{
     display: flex;
@@ -192,4 +196,14 @@ footer {
 
 .filter_active {
     background-color: #94a1e93f;
+}
+#trained_in p{
+    hyphens: auto;
+    overflow-wrap: normal;
+    word-break: normal;
+}
+
+.trained_wrapper {
+    display: flex;
+    justify-content: space-between;
 }
