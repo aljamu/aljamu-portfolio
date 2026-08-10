@@ -4,15 +4,17 @@
         "name": "Nelecom 1",
         "img_path": "audio/radio.jpg",
         "tag": "Radio Sendung | Jugensendung",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam dolorum repellat nihil fugit consequuntur sit aliquid officiis sint at numquam maxime, culpa facilis, illum mollitia modi soluta corrupti non. Reprehenderit, vitae eos omnis eaque debitis, consequuntur nihil itaque sit similique quo numquam voluptatum pariatur distinctio ducimus dolores voluptates nostrum esse recusandae, architecto porro alias. Est ea rerum, at nam maxime in quia. Recusandae nam, debitis harum ullam aliquid magnam deleniti nisi, aliquam, cumque obcaecati laborum. Dolores eveniet corporis recusandae amet itaque quos, sunt ratione quae deserunt velit aliquam alias consectetur molestias! Quis ipsa corrupti, rerum enim illum vitae a cumque.",
-        "link": "https://mega.nz/folder/BJ1AwSzT#vljlMqywIx2bJ_-kPsW7JQ"
+        "description": "Das Projekt Schüler(Internet)Radio nelecom: In gemeinsamen Bemühungen zur Stärkung und Weiterentwicklung der Vermittlung von Medienkompetenz in Thüringen wurde 2013 das Projekt „Schüler(Internet) Radio nelecom“ vom Thüringer Ministerium für Bildung, Wissenschaft und Kultur, der TLM, dem Thillmund den Thüringer Bürgerradios konzipiert und entwickelt. Kinder und Jugendliche können sich vor Ort mit den Gestaltungsmöglichkeiten vonselbst produzierten Radiosendungen auseinandersetzen und ihre eigene Wahrnehmung reflektieren. Im Zentrum des Projekts stehen eigenverantwortliche, lokaleSchülerredaktionen, die Radiobeiträge mitdem Fokus auf für Kinder und Jugendlicheund die jeweilige Region relevante und interessante Themen erstellen. Professionelle Unterstützung bei der medialen Umsetzung erhalten die Redaktionsgruppendurch die Thüringer Bürgerradios.",
+        "additional_info": "Thüringer Landesmedienanstalt (TLM), Geschäftsbericht 2016 [PDF], 2016, S. 49.",
+        "link": "https: //mega.nz/folder/BJ1AwSzT#vljlMqywIx2bJ_-kPsW7JQ"
     },
     "rd2": {
         "id": "rd2",
         "name": "Nelecom 2",
         "tag": "Radio Sendung | Jugensendung",
         "img_path": "audio/radio.jpg",
-        "description": "Plays league of legends. Lick the other cats. Scratch the postman wake up lick paw wake up owner meow meow annoy kitten brother with poking, so my water bowl is clean and freshly replenished, so i'll drink from the toilet or my left donut is missing, as is my right and that box?",
+        "description": "Das Projekt Schüler(Internet)Radio nelecom: In gemeinsamen Bemühungen zur Stärkung und Weiterentwicklung der Vermittlung von Medienkompetenz in Thüringen wurde 2013 das Projekt „Schüler(Internet) Radio nelecom“ vom Thüringer Ministerium für Bildung, Wissenschaft und Kultur, der TLM, dem Thillmund den Thüringer Bürgerradios konzipiert und entwickelt. Kinder und Jugendliche können sich vor Ort mit den Gestaltungsmöglichkeiten vonselbst produzierten Radiosendungen auseinandersetzen und ihre eigene Wahrnehmung reflektieren. Im Zentrum des Projekts stehen eigenverantwortliche, lokaleSchülerredaktionen, die Radiobeiträge mitdem Fokus auf für Kinder und Jugendlicheund die jeweilige Region relevante und interessante Themen erstellen. Professionelle Unterstützung bei der medialen Umsetzung erhalten die Redaktionsgruppendurch die Thüringer Bürgerradios.",
+        "additional_info": "Thüringer Landesmedienanstalt (TLM), Geschäftsbericht 2016 [PDF], 2016, S. 49.",
         "link": "https://mega.nz/folder/BJ1AwSzT#vljlMqywIx2bJ_-kPsW7JQ"
     },
     "rd3": {
@@ -20,16 +22,17 @@
         "name": "Nelecom 3",
         "tag": "Radio Sendung | Jugensendung",
         "img_path": "audio/radio.jpg",
-        "description": "Plays league of legends. Lick the other cats. Scratch the postman wake up lick paw wake up owner meow meow annoy kitten brother with poking, so my water bowl is clean and freshly replenished, so i'll drink from the toilet or my left donut is missing, as is my right and that box?",
+        "description": "Das Projekt Schüler(Internet)Radio nelecom: In gemeinsamen Bemühungen zur Stärkung und Weiterentwicklung der Vermittlung von Medienkompetenz in Thüringen wurde 2013 das Projekt „Schüler(Internet) Radio nelecom“ vom Thüringer Ministerium für Bildung, Wissenschaft und Kultur, der TLM, dem Thillmund den Thüringer Bürgerradios konzipiert und entwickelt. Kinder und Jugendliche können sich vor Ort mit den Gestaltungsmöglichkeiten vonselbst produzierten Radiosendungen auseinandersetzen und ihre eigene Wahrnehmung reflektieren. Im Zentrum des Projekts stehen eigenverantwortliche, lokaleSchülerredaktionen, die Radiobeiträge mitdem Fokus auf für Kinder und Jugendlicheund die jeweilige Region relevante und interessante Themen erstellen. Professionelle Unterstützung bei der medialen Umsetzung erhalten die Redaktionsgruppendurch die Thüringer Bürgerradios.",
+        "additional_info": "Thüringer Landesmedienanstalt (TLM), Geschäftsbericht 2016 [PDF], 2016, S. 49.",
         "link": "https://mega.nz/folder/BJ1AwSzT#vljlMqywIx2bJ_-kPsW7JQ"
     },
     "rd4": {
         "id": "rd4",
-        "name": "Radio Blau",
-        "tag": "Radio Sendung",
+        "name": "Schallplatten",
+        "tag": "Radio Sendung (Radio Blau)",
         "img_path": "audio/radio.jpg",
-        "description": "Plays league of legends. Lick the other cats. Scratch the postman wake up lick paw wake up owner meow meow annoy kitten brother with poking, so my water bowl is clean and freshly replenished, so i'll drink from the toilet or my left donut is missing, as is my right and that box?",
-        "additional_info": "Leider musste die Musik entfernt werden.",
+        "description": "Ja, wieder eine Sendung über die Schallplatte. Es soll sich diesmal aber nicht nur um DJ´s und Plattenläden drehen, sondern auch darum, wie Platten eigentlich hergestellt werden und was dafür so nötig ist. Von der Technik, übers erforderliche Wissen bis hin zum fertigen Produkt. Zum Thema befragt haben wir dafür die DJ und freie Journalistin »Spindyrella«, den Plattenladen »Strawberry Fields« und die Schallplattenmanufaktur »R.A.N.D. Muzik«. Realisiert haben diese Sendung drei Medientechnik-Studierende der HTWK Leipzig in Zusammenarbeit mit der Hörfunk- und Projektwerkstatt Leipzig (HUP) e.V. im Rahmen des HTWK Seminars Radiojournalismus.",
+        "additional_info": "Mitschnitt einer Live-Sendung vom 29.06.2023, die Musik wurde aus rechtlichen Gründen entfernt",
         "link": "https://soundcloud.com/jung-blau/wiedergeburt-schallplatte-ohne-musik"
     }
 }

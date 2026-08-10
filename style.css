@@ -311,7 +311,21 @@ footer {
 
 #overlay_link {
     display: block;
-    margin-top: 15px;
+    margin-top: 10px;
+}
+
+a#overlay_link {
+    color: #d59d00;
+    text-decoration: underline;
+    transition: all 0.3s;
+}
+
+a#overlay_link:hover {
+    color: #ca7d0af8;
+}
+
+a#overlay_link:visited {
+    color: #4d4d4d;
 }
 
 #overlay_cancel {
