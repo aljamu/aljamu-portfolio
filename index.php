@@ -83,13 +83,13 @@
         <div id="audios" class="portfolio_cards_wrapper">
             <?php
             $audios = json_decode(file_get_contents(__DIR__ . "/data/audio.json"));
-            cardGenerator($audios);
+            cardGeneratorFull($audios);
             ?>
         </div>
         <div id="blender" class="portfolio_cards_wrapper">
             <?php
             $blender = json_decode(file_get_contents(__DIR__ . "/data/blender.json"));
-            cardGenerator($blender);
+            cardGeneratorFull($blender);
             ?>
         </div>
         <div id="code" class="portfolio_cards_wrapper">

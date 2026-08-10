@@ -19,8 +19,13 @@ function cardGeneratorFull(object $data)
         echo
         "<div id='$d->id' class='portfolio-card'>
             <img src='$filepath' alt='$d->name'>
-            <h3>" . ucwords($d->name) . "</h3>
-            <h4>" . ucwords($d->tag) . "</h4>
+            <div style='display: flex; justify-content: space-between; margin-top:34px;'>
+                <div>
+                    <h3>" . ucwords($d->name) . "</h3>
+                    <h4>" . ucwords($d->tag) . "</h4>
+                </div>
+                <i class='fa fa-arrows-alt' aria-hidden='true'></i>
+            </div>
             <p class='description hidden_value'>$d->description</p>
             <p class='link hidden_value'>$d->link</p>
             </div>

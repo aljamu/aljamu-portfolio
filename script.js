@@ -26,11 +26,12 @@ $(".portfolio-card").on("click", function (){
     var link = $(this).find("p.link").text();
 
     $("#overlay").show();
+    $("#overlay_card").addClass("is-open");
     $("#overlay_card").append(`<img id="overlay_card_image" src="${imgPath}" alt="${imgAlt}">`);
     $("#overlay_card").append(`<div id="overlay_card_info"></div>`);
     $("#overlay_card_info").append(`<div id="overlay_card_wrapper"></div>`);
     $("#overlay_card_wrapper").append(`<h1 id="overlay_title">${title}</h1>`);
-    $("#overlay_card_wrapper").append(`<button onclick="overlayClose()" id="overlay_cancel">X</button>`);
+    $("#overlay_card_wrapper").append(`<button onclick="overlayClose()" id="overlay_cancel"><i class="fa fa-times" aria-hidden="true"></i></button>`);
     $("#overlay_card_info").append(`<h2 id="overlay_tag">${tag}</h2>`);
     $("#overlay_card_info").append(`<p id="overlay_description">${description}</p>`);
     $("#overlay_card_info").append(`<a id="overlay_link" href="${link}">Watch here</a>`);
@@ -39,4 +40,5 @@ $(".portfolio-card").on("click", function (){
 function overlayClose(){
     $("#overlay").hide();
     $("#overlay_card").empty();
+    $("#overlay_card").removeClass("is-open");
 }

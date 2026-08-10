@@ -95,16 +95,16 @@ nav a {
     flex-wrap: wrap;
     justify-content: right !important;
 }
+
 .portfolio-filter h1{
     font-size: smaller;
     color: #191b27;
     margin-right: 10px;
 }
+
 h1 {
     font-weight: 400;
 }
-
-
 
 .portfolio-filter-wrapper{
     display: flex;
@@ -125,13 +125,29 @@ h1 {
 }
 
 .portfolio-filter li {
-    display: inline;
-    text-align: center;
     margin: 5px;
     border-radius: 8px;
     padding: 5px;
-    align-items: center;
-   /* background-color: #191B27; */
+    
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.portfolio-filter li p {
+    height: 25px;
+    width: 25px;
+    text-align: center;
+}
+
+.portfolio-filter li:hover {
+    /* transform: translateY(-3px); */
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.25);
+    background-color: #ffcf41;
+}
+
+.filter_active {
+    background-color: #ffd04162;
+    background-color: #ffd0416b;
 }
 
 .portfolio_cards_wrapper{
@@ -148,8 +164,18 @@ h1 {
     border-radius: 8px;
     box-shadow: 0px 1px 5px 1px rgba(0, 0, 0, 0.3);
     background-color: white;
+    cursor: pointer;
+    transition: all 0.2s ease;
 }
 
+.portfolio-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.25);
+}
+.portfolio-card i {
+    align-self: center;
+    color: #d0d0d0;
+}
 .portfolio-card img {
     width: 100%;
     border-radius: 8px;
@@ -159,7 +185,7 @@ h1 {
 
 .portfolio-card h3 {
     color: #191B27;
-    margin: 34px 0 0;
+    margin: 0;
     padding: 0 5px 0;
     font-size: 15px;
     /*text-align: center;*/
@@ -194,9 +220,6 @@ footer {
     display: none !important;
 }
 
-.filter_active {
-    background-color: #94a1e93f;
-}
 
 #trained_in p{
     hyphens: auto;
@@ -226,20 +249,7 @@ footer {
     height: 100%; 
     top: 0;
     left: 0; 
-    background: rgba(59, 59, 59, 0.85); 
-    z-index: 10;
-}
-
-#overlay {
-    display: flex;
-    flex-direction: column; 
-    justify-content:center; 
-    position: fixed; 
-    width: 100%; 
-    height: 100%; 
-    top: 0;
-    left: 0; 
-    background: rgba(59, 59, 59, 0.85); 
+    background: radial-gradient(circle at center, #000000d8 0%, #000000 100%);
     z-index: 10;
 }
 
@@ -250,6 +260,10 @@ footer {
     background-color: white; 
     border-radius: 30px; 
     display: flex;
+
+    transform: translateY(20px);
+    opacity: 0;
+    transition: all 0.2s ease;
 }
 
 #overlay_card_image {
@@ -260,6 +274,8 @@ footer {
 }
 
 #overlay_card_info {
+    text-align: justify;
+    text-justify: inter-word;
     width: 100%;
     padding: 20px;
 }
@@ -271,14 +287,9 @@ footer {
 
 #overlay_title {
     font-size: xx-large; 
-    margin-bottom: 0px;
+    margin: 0px;
 }
 
-#overlay_cancel {
-    font-size: xx-large;
-    margin-bottom: 0px;
-    color: lightgray
-}
 
 #overlay_tag {
     font-size: large; 
@@ -294,3 +305,38 @@ footer {
     display: block;
     margin-top: 15px;
 }
+
+#overlay_cancel {
+    background-color: #e0990000;
+    color: #858585;
+    padding: 11px 7px;
+    border-radius: 60px;
+    border: none;
+    box-shadow: none;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+#overlay_cancel i {
+    display: block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: medium; 
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+#overlay_cancel:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.25);
+}
+
+#overlay_card.is-open {
+    opacity: 1;
+}
+
+#overlay_card.is-open {
+    transform: translateY(0) scale(1);
+    opacity: 1;
+}
+
