@@ -36,7 +36,7 @@ $(".portfolio-card").on("click", function (){
     $("#overlay_card_info").append(`<h2 id="overlay_tag">${tag}</h2>`);
     $("#overlay_card_info").append(`<p id="overlay_description">${description}</p>`);
     $("#overlay_card_info").append(`<p id="overlay_additional_info">${addition_info}</p>`);
-    link != "" ? $("#overlay_card_info").append(`<a id="overlay_link" href="${link}" target="_blank">See media here</a>`) : $("#overlay_card_info").append(`<p id="overlay_link">Media currently not available.</p>`);
+    link != "" ? $("#overlay_card_info").append(`<a id="overlay_link" href="${link}" target="_blank">Zum Medium</a>`) : $("#overlay_card_info").append(`<p id="overlay_link">Link zum Medium aktuell nicht verfügbar.</p>`);
 })
 
 function overlayClose(){
