@@ -77,19 +77,19 @@
             <?php
             $videos = json_decode(file_get_contents(__DIR__ . "/data/videos.json"));
             #cardGenerator($videos);
-            cardGeneratorFull($videos);
+            cardGenerator($videos);
             ?>
         </div>
         <div id="audios" class="portfolio_cards_wrapper">
             <?php
             $audios = json_decode(file_get_contents(__DIR__ . "/data/audio.json"));
-            cardGeneratorFull($audios);
+            cardGenerator($audios);
             ?>
         </div>
         <div id="blender" class="portfolio_cards_wrapper">
             <?php
             $blender = json_decode(file_get_contents(__DIR__ . "/data/blender.json"));
-            cardGeneratorFull($blender);
+            cardGenerator($blender);
             ?>
         </div>
         <div id="code" class="portfolio_cards_wrapper">

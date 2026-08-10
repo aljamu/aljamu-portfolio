@@ -276,6 +276,8 @@ footer {
 #overlay_card_info {
     text-align: justify;
     text-justify: inter-word;
+    hyphens: auto;
+    overflow-wrap: break-word;
     width: 100%;
     padding: 20px;
 }
@@ -299,6 +301,12 @@ footer {
 
 #overlay_description {
     font-weight: 100;
+}
+
+#overlay_additional_info {
+    font-style: italic; 
+    font-weight: 100;
+    margin-top:10px;
 }
 
 #overlay_link {

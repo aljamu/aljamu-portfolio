@@ -23,6 +23,7 @@ $(".portfolio-card").on("click", function (){
     var imgPath = $(this).find("img").attr("src");
     var imgAlt = $(this).find("img").attr("alt");
     var description = $(this).find("p.description").text();
+    var addition_info = $(this).find("p.additional_info").text() ?? null;
     var link = $(this).find("p.link").text();
 
     $("#overlay").show();
@@ -34,7 +35,8 @@ $(".portfolio-card").on("click", function (){
     $("#overlay_card_wrapper").append(`<button onclick="overlayClose()" id="overlay_cancel"><i class="fa fa-times" aria-hidden="true"></i></button>`);
     $("#overlay_card_info").append(`<h2 id="overlay_tag">${tag}</h2>`);
     $("#overlay_card_info").append(`<p id="overlay_description">${description}</p>`);
-    $("#overlay_card_info").append(`<a id="overlay_link" href="${link}">Watch here</a>`);
+    $("#overlay_card_info").append(`<p id="overlay_additional_info">${addition_info}</p>`);
+    link != "" ? $("#overlay_card_info").append(`<a id="overlay_link" href="${link}">See media here</a>`) : $("#overlay_card_info").append(`<p id="overlay_link">Media currently not available.</p>`);
 })
 
 function overlayClose(){
