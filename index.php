@@ -115,14 +115,39 @@
     </section>
 
     <section class="section-style-regular">
-        <h1 class="text_primary_color">I work with:</h1>
-        <img src="img/techstack_icons.png" alt="techstack">
-        <p style="text-align: right;">Außerdem vertraut mit HTML, JS, CSS, Python, Laravel, Vue,
+        <h1 class="text_primary_color">Mein Haupt-Techstack:</h1>
+        <div id="techstack" style="display:flex; justify-content: space-evenly; padding: 50px 10px; width:100%">
+            <div style="flex: 1;">
+                <a href="https://www.cakephp.org/" style="margin:auto;" target="_blank">
+                    <img src="https://www.cakephp.org/img/flags/I-bake-with-CakePHP.png" alt="CakePHP-Logo"
+                        style="width:80%; margin: auto; display: block; height: 150px;">
+                </a>
+            </div>
+            <div style="flex: 1;">
+                <a href="https://www.php.net/" style="margin:auto;" target="_blank">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/2/27/PHP-logo.svg" alt="PHP-Logo"
+                        style="width:80%; margin: auto; display: block; height: 150px;">
+                </a>
+            </div>
+            <div style="flex: 1;">
+                <a href="https://www.mysql.com/" style="margin:auto;" target="_blank">
+                    <img src="https://labs.mysql.com/common/logos/mysql-logo.svg" alt="MySQL-Logo"
+                        style="width:80%; margin: auto; display: block; height: 150px;">
+                </a>
+            </div>            
+            <div style="flex: 1;">
+                <a href="https://dotnet.microsoft.com/" style="margin:auto;" target="_blank">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/7/7d/Microsoft_.NET_logo.svg" alt=".NET-Logo"
+                        style="width:80%; margin: auto; display: block; height: 150px;">
+                </a>
+            </div>            
+        </div>
+        <p style="text-align: center; color: darkgrey">Außerdem vertraut mit HTML, JS, CSS, Python, Laravel, Vue, SOAP, RESTful,
             MVC-Architektur & OOP, etc. Erfahrungen variieren.</p>
     </section>
 
     <section id="trained_in"
-        style="margin-top: 20px; padding: 15px 0px; padding: 30px 0px; background-color: #191B27; color: white;">
+        style="font-weight: 100; margin-top: 20px; padding: 15px 0px; padding: 30px 0px; background-color: #191B27; color: white;">
         <div class="section-style-regular">
 
             <!-- <h1 style="margin-bottom: 20px;">Ausgebildeter: </h1> -->
@@ -131,9 +156,8 @@
                     <h2 class="mt-0">Medientechniker (B. Eng)</h2>
                     <p class="text_justify">
                         Zu Beginn meines Studiums wurde schnell deutlich, was hinter einem Medientechniker steht: Der
-                        Medientechniker ist
-                        Ingenieur – und arbeitet als vielseitig ausgebildete Schnittstelle, die Probleme effizient
-                        sowohl innerhalb als auch zwischen verschiedenen Abteilungen löst. Dabei reicht das
+                        Medientechniker ist Ingenieur – und arbeitet als vielseitig ausgebildete Schnittstelle, die Probleme 
+                        effizient sowohl innerhalb als auch zwischen verschiedenen Abteilungen löst. Dabei reicht das
                         Zusammenspiel von journalistischen und redaktionellen Tätigkeiten sowie Content Creation über
                         Marketing, Instruktion und Kommunikation bis hin zu UX/UI-Design und Informatik.
                     </p>
@@ -144,9 +168,14 @@
                         und selbstständige Arbeitsweise, analytisches Denken und ein gutes Verständnis für komplexe
                         Abläufe. Ebenso wichtig ist technisches Interesse bzw. die Bereitschaft, sich schnell in neue
                         Tools, Systeme und Formate einzuarbeiten. Kreativität und Gestaltungswille helfen, Inhalte und
-                        Produkte nicht nur umzusetzen, sondern zielgerichtet weiterzuentwickeln. Außerdem sind ein gutes
-                        Gespür für Zielgruppen und Inhalte sowie Qualitätsbewusstsein entscheidend, um Ergebnisse
-                        konsistent, verständlich und nutzbar zu liefern. </p>
+                        Produkte nicht nur umzusetzen, sondern zielgerichtet weiterzuentwickeln.
+                    </p>
+                    <br>
+                    <p class="text_justify">
+                        Das Studium habe ich parallel zum Beginn meiner neuen FiAE-Ausbildung im Dezember 2024 
+                        mit einer Gesamtnote von 1.9 abgeschlossen. In meiner Bachelorarbeit habe ich mich mit Fullstack-
+                        Webanwendungen mit dem MEVN-Stack befasst.
+                    </p>
 
                 </div>
                 <div style="max-width: 480px;">
@@ -159,7 +188,7 @@
                         Unternehmen erleben. Ich wollte nicht nur Software “sehen” oder Code von Udemy-Kursen
                         copy-pasten,
                         sondern aktiv daran mitarbeiten – in realen Projekten, im Team und mit echtem Einsatz.</p>
-                    <br \>
+                    <br>
                     <p class="text_justify">Dadurch kann ich Software nicht nur schreiben, sondern auch verstehen, wie
                         sie im Alltag funktioniert: wie Anforderungen in Code übersetzt werden, wie Schnittstellen
                         zusammenpassen und wo Probleme entstehen, wenn Nutzer, Daten und Medien-Workflows wirklich

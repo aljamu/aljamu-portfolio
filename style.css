@@ -200,12 +200,14 @@ h1 {
 }
 
 footer {
-    width: 100%; 
+    display: flex;
+    width: 1000px;
+    margin: auto; 
     padding: 10px; 
     text-align: center; 
     bottom: 0;
     background-color: white;
-    height: 15px;
+    justify-content: space-between;
 }
 
 .text_justify{
