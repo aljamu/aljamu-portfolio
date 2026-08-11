@@ -4,7 +4,8 @@
         "name": "Ant (1)",
         "img_path": "blender/ant1.png",
         "tag": "Blender 3D",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam dolorum repellat nihil fugit consequuntur sit aliquid officiis sint at numquam maxime, culpa facilis, illum mollitia modi soluta corrupti non. Reprehenderit, vitae eos omnis eaque debitis, consequuntur nihil itaque sit similique quo numquam voluptatum pariatur distinctio ducimus dolores voluptates nostrum esse recusandae, architecto porro alias. Est ea rerum, at nam maxime in quia. Recusandae nam, debitis harum ullam aliquid magnam deleniti nisi, aliquam, cumque obcaecati laborum. Dolores eveniet corporis recusandae amet itaque quos, sunt ratione quae deserunt velit aliquam alias consectetur molestias! Quis ipsa corrupti, rerum enim illum vitae a cumque.",
+        "description": "Ein 3D-Render einer Ameise in minimalistischer, moderner Optik: mit glas-kupferähnlichen Oberflächen, klaren Transparenz- und Metallreflexionen, präzisen Kanten und einem reduzierten Lichtsetup. Die Szene ist ruhig, der Hintergrund dunkel, und die Ameise bleibt der einzige visuelle Fokus. Faszinierende Tiere, die durch Zusammenarbeit und Kommunikation aus kleinen Schritten erstaunliche Spuren und Strukturen hervorbringen.",
+        "additional_info": "Ohne KI erstellt mit Blender.",
         "link": "https://www.artstation.com/j_a_i_n_z"
     },
     "ant2": {
@@ -12,7 +13,8 @@
         "name": "Ant (2)",
         "tag": "Blender 3D",
         "img_path": "blender/ant2.png",
-        "description": "Plays league of legends. Lick the other cats. Scratch the postman wake up lick paw wake up owner meow meow annoy kitten brother with poking, so my water bowl is clean and freshly replenished, so i'll drink from the toilet or my left donut is missing, as is my right and that box?",
+        "description": "Ein 3D-Render einer Ameise in minimalistischer, moderner Optik: mit glas-kupferähnlichen Oberflächen, klaren Transparenz- und Metallreflexionen, präzisen Kanten und einem reduzierten Lichtsetup. Die Szene ist ruhig, der Hintergrund dunkel, und die Ameise bleibt der einzige visuelle Fokus. Faszinierende Tiere, die durch Zusammenarbeit und Kommunikation aus kleinen Schritten erstaunliche Spuren und Strukturen hervorbringen.",
+        "additional_info": "Ohne KI erstellt mit Blender.",
         "link": "https://www.artstation.com/j_a_i_n_z"
     },
     "frd": {
@@ -20,7 +22,8 @@
         "name": "Forest Deer",
         "tag": "Blender 3D",
         "img_path": "blender/deer.png",
-        "description": "Plays league of legends. Lick the other cats. Scratch the postman wake up lick paw wake up owner meow meow annoy kitten brother with poking, so my water bowl is clean and freshly replenished, so i'll drink from the toilet or my left donut is missing, as is my right and that box?",
+        "description": "Ein 3D-Render: Ein Wald in ruhiger, klarer Atmosphäre – gedämpftes Licht fällt durch das Blätterdach, Moos und feines Grün wirken frisch und geordnet. Zwischen den Stämmen stehen Rehe als elegante Tiere, leichtfüßig in die Landschaft eingefügt. Die Szene bleibt harmonisch, fast still, mit viel Raum für Ruhe und Naturdetails.",
+        "additional_info": "Ohne KI erstellt mit Blender.",
         "link": "https://www.artstation.com/j_a_i_n_z"
     },
     "dyF": {
@@ -28,7 +31,8 @@
         "name": "Dystopian Future",
         "tag": "Blender 3D",
         "img_path": "blender/dystopian.png",
-        "description": "Plays league of legends. Lick the other cats. Scratch the postman wake up lick paw wake up owner meow meow annoy kitten brother with poking, so my water bowl is clean and freshly replenished, so i'll drink from the toilet or my left donut is missing, as is my right and that box?",
+        "description": "Ein 3D-Render im „War-of-the-Worlds“-Look: Auf dem Außenbereich eines Industriegeländes kniet ein Mensch, gebeugt und in klarer Unterwerfung unter der übermächtigen Präsenz eines Aliens. Über dem Boden liegt Nebel, der von kaltem, fremdem Licht in harte Kontraste getaucht wird. Das Alien ragt groß ins Bild und zeigt tentakelartige Anhänge, die sich durch den Rauch ziehen und eine bedrohliche, übergreifende Dominanz ausstrahlen. Widerstand scheint zwecklos.",
+        "additional_info": "Ohne KI erstellt in Blender. Composition mit Blender.",
         "link": "https://www.artstation.com/j_a_i_n_z"
     }
 }
