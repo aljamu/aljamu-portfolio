@@ -7,7 +7,7 @@ function cardGenerator(string $name) : void
         echo
         "<div id='$d->id' class='portfolio-card'>
             <img src='$filepath' alt='$d->name'>
-            <div style='display: flex; justify-content: space-between; margin-top:34px;'>
+            <div class='card_info'>
                 <div>
                     <h3>" . ucwords($d->name) . "</h3>
                     <h4>" . ucwords($d->tag) . "</h4>

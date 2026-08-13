@@ -56,12 +56,13 @@
     </div>
 </section>
 
-<section id="hero" style="background-color: #191B27; color: white; min-height: 100px;">
-    <div class="section-style-regular" style="display: flex;">
-        <div style="height: inherit; display: flex; justify-content: center; flex-direction: column;">
-            <h1>"Ich habe keine besondere Begabung,<span class="text_highlight_color"> sondern bin nur
-                    leidenschaftlich neugierig."</span><span style="font-size: small; font-weight: lighter;"> Albert
-                    Einstein</span></h1>
+<section id="section_quote">
+    <div class="section_quote_wrapper section-style-regular">
+        <div class="section_quote_flex_wrapper">
+            <h1>"Ich habe keine besondere Begabung,
+                <span class="text_highlight_color"> sondern bin nur leidenschaftlich neugierig."</span>
+                <span class="citation"> Albert Einstein</span>
+            </h1>
             <p class="text_justify">Dieses Zitat passt sehr gut zu dem, was mich antreibt. Ich bin von Natur aus
                 sehr neugierig und habe einen
                 ausgeprägten Wissensdrang in verschiedenste Themenfelder – von Weltgeschehen und Politik über
@@ -72,31 +73,27 @@
     </div>
 </section>
 
-<section class="section-style-regular">
+<section id="section_techstack" class="section-style-regular">
     <h1 class="text_primary_color">Mein Haupt-Techstack:</h1>
-    <div id="techstack" style="display:flex; justify-content: space-evenly; padding: 50px 10px; width:100%">
+    <div id="techstack">
         <div style="flex: 1;">
             <a href="https://www.cakephp.org/" style="margin:auto;" target="_blank">
-                <img src="https://www.cakephp.org/img/flags/I-bake-with-CakePHP.png" alt="CakePHP-Logo"
-                    style="width:80%; margin: auto; display: block; height: 150px;">
+                <img src="https://www.cakephp.org/img/flags/I-bake-with-CakePHP.png" alt="CakePHP-Logo">
             </a>
         </div>
         <div style="flex: 1;">
             <a href="https://www.php.net/" style="margin:auto;" target="_blank">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/2/27/PHP-logo.svg" alt="PHP-Logo"
-                    style="width:80%; margin: auto; display: block; height: 150px;">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/2/27/PHP-logo.svg" alt="PHP-Logo">
             </a>
         </div>
         <div style="flex: 1;">
             <a href="https://www.mysql.com/" style="margin:auto;" target="_blank">
-                <img src="https://labs.mysql.com/common/logos/mysql-logo.svg" alt="MySQL-Logo"
-                    style="width:80%; margin: auto; display: block; height: 150px;">
+                <img src="https://labs.mysql.com/common/logos/mysql-logo.svg" alt="MySQL-Logo">
             </a>
         </div>
         <div style="flex: 1;">
             <a href="https://dotnet.microsoft.com/" style="margin:auto;" target="_blank">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/7/7d/Microsoft_.NET_logo.svg" alt=".NET-Logo"
-                    style="width:80%; margin: auto; display: block; height: 150px;">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/7/7d/Microsoft_.NET_logo.svg" alt=".NET-Logo">
             </a>
         </div>
     </div>
@@ -111,7 +108,7 @@
 
         <!-- <h1 style="margin-bottom: 20px;">Ausgebildeter: </h1> -->
         <div class="trained_wrapper">
-            <div style="max-width: 480px;">
+            <div>
                 <h2 class="mt-0">Medientechniker (B. Eng)</h2>
                 <p class="text_justify">
                     Zu Beginn meines Studiums wurde schnell deutlich, was hinter einem Medientechniker steht: Der
@@ -137,7 +134,7 @@
                 </p>
 
             </div>
-            <div style="max-width: 480px;">
+            <div class="fiae">
                 <h2 class="mt-0">Fachinformatiker (FiAE)</h2>
                 <p class="text_justify">Während meines Studiums merkte ich, dass mir die Programmierung
                     besonders viel Freude bereitet und ich mich in diesem Bereich weiterentwickeln möchte. Genau
