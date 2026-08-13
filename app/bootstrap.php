@@ -1,10 +1,17 @@
 <?php
-// app/bootstrap.php ist (in deinem Setup) die Datei, die du als erstes einbindest, 
-// damit deine Anwendung für die aktuelle Anfrage “bereit” ist. Sie sorgt dafür, 
-// dass alles, was danach gebraucht wird, schon verfügbar ist.
+//Code, der die feste Projekt-Umgebung aufbaut, also Pfade, Loader und Funktionen bereitstellt.
 
-//Requires
-require __DIR__ ."/lib/home/cardGenerator.php";
+//Paths
+define('PROJECT_ROOT', dirname(__DIR__));
+define('APP_ROOT', __DIR__);
+define('DATA_ROOT', __DIR__ . '/data');
+define('LIB_ROOT', __DIR__ . '/lib');
+define('TEMPLATES_ROOT', __DIR__ . '/templates');
+
+//Load
+require LIB_ROOT . "/helper.php";
+require LIB_ROOT . "/cardGenerator.php";
+
 
 //Functions
 function render_page(string $template, array $vars = []): void
@@ -23,8 +30,8 @@ function render(string $name, array $vars = []): string
     if (!file_exists($path)) {
         http_response_code(404);
         return 'Template nicht gefunden';
-        }
-        
+    }
+     
     ob_start();
     require $path;
     return ob_get_clean();

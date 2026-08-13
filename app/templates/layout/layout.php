@@ -1,3 +1,8 @@
+<?php 
+/** @var string $title, $content 
+ *  @var string $content 
+*/
+?>
 <!DOCTYPE html>
 <html lang="de">
 
@@ -5,7 +10,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aljamu<?= htmlspecialchars(" - " . $title) ?? "" ?></title>
-    <link rel="stylesheet" href="asstes/css/style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -37,7 +42,7 @@
         <?php require __DIR__ . "/footer.php" ?>
     </footer>
 
-    <script src="script.js"></script>
+    <script src="assets/js/script.js"></script>
     <script>initCanvas();</script>
 </body>
 

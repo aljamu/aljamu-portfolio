@@ -39,27 +39,20 @@
         </div>
     </div>
     <div id="videos" class="portfolio_cards_wrapper pcw_active">
-        <?php
-            $videos = json_decode(file_get_contents(__DIR__ . "/data/videos.json"));
-            #cardGenerator($videos);
-            cardGenerator($videos);
-            ?>
+        <?php cardGenerator("videos");?>
     </div>
     <div id="audios" class="portfolio_cards_wrapper">
-        <?php
-            $audios = json_decode(file_get_contents(__DIR__ . "/data/audio.json"));
-            cardGenerator($audios);
-            ?>
+        <?php cardGenerator("audio");?>
     </div>
     <div id="blender" class="portfolio_cards_wrapper">
-        <?php
-            $blender = json_decode(file_get_contents(__DIR__ . "/data/blender.json"));
-            cardGenerator($blender);
-            ?>
+        <?php cardGenerator("blender");?>
     </div>
     <div id="code" class="portfolio_cards_wrapper">
-        <h1 style="margin: 0px 0px 10px 0px;">So fing alles an..</h1>
-        <canvas id="anzeige" width="950" height="250" style="border:2px solid #000000;background:#f0f0f0"></canvas>
+        <div class="code_placeholder" style="border: 1px black solid; width: 950px; height: 325px; display:flex; flex-direction:column; justify-content:center;">
+            <h3 style="margin: auto;">Bald verfügbar</h3>
+        </div>
+        <!-- <h1 style="margin: 0px 0px 10px 0px;">So fing alles an..</h1> -->
+        <!-- <canvas id="anzeige" width="950" height="250" style="border:2px solid #000000;background:#f0f0f0"></canvas> -->
     </div>
 </section>
 
@@ -75,7 +68,7 @@
                 Medien, Marketing und Public Relations bis hin zu Informatik. Mein Anspruch ist es, Zusammenhänge zu
                 verstehen, Neues schnell zu lernen und Erkenntnisse gezielt anzuwenden.</p>
         </div>
-        <img style="width: 250px; margin: 10px 0px 10px 100px;" src="img/me.jpg" alt="A Picture of Me">
+        <img style="width: 250px; margin: 10px 0px 10px 100px;" src="assets/img/me.jpg" alt="A Picture of Me">
     </div>
 </section>
 

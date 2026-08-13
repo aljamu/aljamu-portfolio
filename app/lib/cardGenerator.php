@@ -1,8 +1,9 @@
 <?php
-function cardGenerator($data)
+function cardGenerator(string $name) : void
 {
+    $data = loadJson($name);
     foreach($data as $d){
-        $filepath = "img/" . $d->img_path;
+        $filepath = "assets/img/" . $d->img_path;
         echo
         "<div id='$d->id' class='portfolio-card'>
             <img src='$filepath' alt='$d->name'>
