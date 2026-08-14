@@ -265,9 +265,9 @@ p {
 
 #section_quote .citation {
     font-size: x-small;
-    text-align: right;
-    display: inline-block;
-    max-width: 80%;
+    text-align: center;
+    display: block;
+    max-width: 100%;
 }
 
 #section_quote img {
@@ -452,6 +452,12 @@ a#overlay_link:visited {
     #overlay_card{
         width:645px;
     }
+
+    #section_quote .citation {
+    text-align: right;
+    display: inline-block;
+    max-width: 80%;
+}
 }
 
 @media screen and (width >=1000px) {
