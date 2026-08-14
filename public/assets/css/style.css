@@ -120,7 +120,7 @@ p {
     max-width: 85%;
     margin: auto;
     display: block;
-    height: 70px;
+    height: 60px;
 }
 
 #techstack {
@@ -186,6 +186,7 @@ p {
 
 .portfolio-card {
     width: 42%;
+    min-height: 195px;
     margin: 10px;
     padding: 0;
     border-radius: 4px;
@@ -305,7 +306,6 @@ p {
 .trained_wrapper {
     display: block;
     font-size: small;
-    width: 85%;
     margin: auto;
 }
 

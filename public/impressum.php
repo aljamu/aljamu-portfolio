@@ -1,3 +1,3 @@
 <?php
 require __DIR__ . '/../app/bootstrap.php';
-render_page('legal/impressum', ["title" => "Impressum"]);
+render_page('impressum/impressum', ["title" => "Impressum"]);

@@ -17,13 +17,13 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Rubik:ital,wght@0,300..900;1,300..900&family=Truculenta:opsz,wght@12..72,100..900&display=swap" rel="stylesheet">
+    <link rel="icon" href="assets/img/JainzPixelArt.png">
     <script src="https://cdn.jsdelivr.net/npm/jquery@4.0.0/dist/jquery.min.js"></script>
     <script src="assets/js/game.js"></script>
     <title>Aljamu<?= $title ? htmlspecialchars(" - " . $title) : "" ?></title>
 </head>
 
 <body>
-
     <div id="overlay" style="display: none;">
         <div id="overlay_card">
         </div>

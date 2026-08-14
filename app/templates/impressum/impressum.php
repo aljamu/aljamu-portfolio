@@ -1,4 +1,4 @@
-<section class="section-style-regular">
+<section class="text_justify section-style-regular" style="margin: 20px auto;">
     <p>Da es sich bei meinem Portfolio um eine private, unkommerzielle Darstellung handelt, besteht in der Regel
         keine Verpflichtung,
         ein Impressum vorzuhalten. Es werden keine geschäftsmäßigen Inhalte wie ein Leistungsangebot oder eine

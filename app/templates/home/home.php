@@ -109,7 +109,7 @@
         <!-- <h1 style="margin-bottom: 20px;">Ausgebildeter: </h1> -->
         <div class="trained_wrapper">
             <div>
-                <h2 class="mt-0">Medientechniker (B. Eng)</h2>
+                <h2 class="mt-0">Medientechniker (B.Eng)</h2>
                 <p class="text_justify">
                     Zu Beginn meines Studiums wurde schnell deutlich, was hinter einem Medientechniker steht: Der
                     Medientechniker ist Ingenieur – und arbeitet als vielseitig ausgebildete Schnittstelle, die Probleme
