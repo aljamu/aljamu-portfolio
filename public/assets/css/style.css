@@ -254,6 +254,10 @@ p {
     max-width: 650px;
 }
 
+.section_quote_wrapper h1{
+    font-size: large;
+}
+
 #section_quote h1 {
     text-align: center;
     font-weight: 400;
@@ -268,6 +272,7 @@ p {
     text-align: center;
     display: block;
     max-width: 100%;
+    margin-top: 10px;
 }
 
 #section_quote img {
@@ -454,10 +459,14 @@ a#overlay_link:visited {
     }
 
     #section_quote .citation {
-    text-align: right;
-    display: inline-block;
-    max-width: 80%;
-}
+        text-align: right;
+        display: inline-block;
+        max-width: 80%;
+    }
+
+    .section_quote_wrapper h1{
+        font-size: x-large;
+    }
 }
 
 @media screen and (width >=1000px) {
@@ -941,5 +950,9 @@ a#overlay_link:visited {
 
     .trained_wrapper>div {
         max-width: 480px;
+    }
+
+    .section_quote_wrapper h1{
+        font-size: xx-large;
     }
 }
