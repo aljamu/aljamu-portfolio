@@ -22,6 +22,14 @@
     <script src="assets/js/game.js"></script>
     <title>Aljamu<?= $title ? htmlspecialchars(" - " . $title) : "" ?></title>
 </head>
+<div id="loader" style="min-width: 100vw; min-height: 100vh; position: fixed; background-color: black;">
+    <div class="loader_wrapper" style="width: 100%; padding-top: 250px;  text-align: center; color: white;">
+        <img class="logo" src="assets/img/JainzPixelArt.png" alt="Logo" width="150px" style="margin: auto;">
+        <h1>Alexander Jannes Müller-Uri</h1>
+        <h2>Seite wird geladen</h2>
+        <div class="custom-loader" style="margin: auto;"></div>
+    </div>
+</div>
 
 <body>
     <div id="overlay" style="display: none;">
@@ -39,7 +47,7 @@
     </footer>
 
     <script src="assets/js/script.js"></script>
-    <script>initCanvas();</script>
+    <!--<script>initCanvas();</script>-->
 </body>
 
 </html>

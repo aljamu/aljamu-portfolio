@@ -45,3 +45,7 @@ function overlayClose(){
     $("#overlay_card").empty();
     $("#overlay_card").removeClass("is-open");
 }
+
+$(window).on("load", function() {
+    $("#loader").hide();
+})
