@@ -1,38 +1,29 @@
 {
     "sf1": {
         "id": "code1",
-        "name": "Babysteps: Che Fanpage",
-        "img_path": "studyflix/buddha.png",
-        "tag": "Erst",
-        "description": "Während meiner Zeit als Werkstudent war ich für die Erstellung von Animationen auf Grundlage eines vorgegebenen Skripts zuständig. Ich entwickelte die Animationen Schritt für Schritt und achtete darauf, dass Bildsprache, Timing und Übergänge zum Skript passten. So entstanden verständliche und ansprechende Animationen, die die vorgegebenen Inhalte visuell unterstützten.",
+        "name": "Che Fanpage",
+        "img_path": "code/che.png",
+        "tag": "Erste Schritte",
+        "description": "Nicht die erste Seite, die ich mit HTML, CSS und JavaScript entwickelt habe, aber die Erste in dieser Form und bis zum Start der FiAE-Ausbildung die aufwändigste. Es ist eine Art \"Portfolio\" für meinen Kater Che, der tagsüber im Karree die Nachbarschaft unsicher machen kann. Es war ein Learning-By-Doing Project: Das erste Projekt komplett ohne Tutorial und zum damaligen Zeitpunkt sowieso ohne Hilfe von KI.",
         "additional_info": "Erstes Projekt mit HTML, CSS und JavaScript",
-        "link": "https://studyflix.de/allgemeinwissen/buddha-6089/video"
+        "link": ""
     },
     "sf2": {
         "id": "code2",
-        "name": "Operation Walküre",
-        "img_path": "studyflix/walkuere.png",
-        "tag": "Lernvideo",
-        "description": "Während meiner Zeit als Werkstudent war ich für die Erstellung von Animationen auf Grundlage eines vorgegebenen Skripts zuständig. Ich entwickelte die Animationen Schritt für Schritt und achtete darauf, dass Bildsprache, Timing und Übergänge zum Skript passten. So entstanden verständliche und ansprechende Animationen, die die vorgegebenen Inhalte visuell unterstützten.",
-        "additional_info": "Lernvideo für Schüler und Studenten.",
-        "link": "https://studyflix.de/geschichte/operation-walkure-5507"
+        "name": "Sage Payroll",
+        "img_path": "code/sage.png",
+        "tag": "Arbeit",
+        "description": "Bereits kurz nach Beginn meiner Ausbildung wurde ich ins Team der Sage Payroll eingebunden. Zu dem Zeitpunkt hieß sie noch Sage Business Cloud Lohnabrechnung (SBCL) oder SBCP (Payroll). Mit den ersten Tickets wurde ich schnell vertraut mit CakePHP und der MVC-Architektur. Im späteren Verlauf wurde ich auch in das c#-Backend eingearbeitet. Seitdem wurden die Tickets und Aufgaben immer größer und damit auch die verbundene Verantwortung. Die Zeit bei Sage empfinde ich als äußerst Lehrreich und ich bin sehr froh bereits in diesem Ausmaß an der Entwicklung beteiligt zu sein.",
+        "additional_info": "CakePHP, C#, MVC, OOP, SOAP",
+        "link": "https://www.sage.com/de-de/produkte/sage-hr-payroll/"
     },
     "sf3": {
         "id": "code3",
-        "name": "Faust 2",
-        "img_path": "studyflix/faust.png",
-        "tag": "Lernvideo",
-        "description": "Während meiner Zeit als Werkstudent war ich für die Erstellung von Animationen auf Grundlage eines vorgegebenen Skripts zuständig. Ich entwickelte die Animationen Schritt für Schritt und achtete darauf, dass Bildsprache, Timing und Übergänge zum Skript passten. So entstanden verständliche und ansprechende Animationen, die die vorgegebenen Inhalte visuell unterstützten.",
-        "additional_info": "Lernvideo für Schüler und Studenten.",
-        "link": "https://studyflix.de/deutsch/faust-2-zusammenfassung-5916"
-    },
-    "sf4": {
-        "id": "code4",
-        "name": "Nibelungenlied",
-        "img_path": "studyflix/nibelungenlied.png",
-        "tag": "Lernvideo",
-        "description": "Während meiner Zeit als Werkstudent war ich für die Erstellung von Animationen auf Grundlage eines vorgegebenen Skripts zuständig. Ich entwickelte die Animationen Schritt für Schritt und achtete darauf, dass Bildsprache, Timing und Übergänge zum Skript passten. So entstanden verständliche und ansprechende Animationen, die die vorgegebenen Inhalte visuell unterstützten.",
-        "additional_info": "Lernvideo für Schüler und Studenten.",
-        "link": "https://studyflix.de/deutsch/nibelungenlied-zusammenfassung-5977"
+        "name": "Persönliche Website",
+        "img_path": "code/portfolio.png",
+        "tag": "Portfolio",
+        "description": "Eigentlich eine Pflicht, sich als Programmierer und Entwickler eine eigene Webseite zu programmieren. Die Webseite ist nicht KI generiert und wurde auch nicht mit einem CMS entwickelt. Das Design wurde vorab mit einem Mockup-Tool geplant. Diese Seite dient als digitale Visitenkarte, es werden nur die wichtigsten Informationen gezeigt. Sie ist responsiv und lässt sich auch auf Mobilgeräten aufrufen. Dennoch bleibt sie ausbaufähig, was sicherlich in Zukunft passieren wird. Ich hoste die Webseite über einen STRATO-Webserver.",
+        "additional_info": "HTML, CSS, JS, JQUERY, PHP",
+        "link": "https://aljamu.de"
     }
 }

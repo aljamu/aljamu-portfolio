@@ -57,11 +57,7 @@
         <?php cardGenerator("studyflix");?>
     </div>
     <div id="code" class="portfolio_cards_wrapper">
-        <div class="code_placeholder" style="border: 1px black solid; width: 950px; height: 325px; display:flex; flex-direction:column; justify-content:center;">
-            <h3 style="margin: auto;">Bald verfügbar</h3>
-        </div>
-        <!-- <h1 style="margin: 0px 0px 10px 0px;">So fing alles an..</h1> -->
-        <!-- <canvas id="anzeige" width="950" height="250" style="border:2px solid #000000;background:#f0f0f0"></canvas> -->
+        <?php cardGenerator("code");?>
     </div>
 </section>
 
