@@ -1,0 +1,38 @@
+{
+    "sf1": {
+        "id": "code1",
+        "name": "Babysteps: Che Fanpage",
+        "img_path": "studyflix/buddha.png",
+        "tag": "Erst",
+        "description": "Während meiner Zeit als Werkstudent war ich für die Erstellung von Animationen auf Grundlage eines vorgegebenen Skripts zuständig. Ich entwickelte die Animationen Schritt für Schritt und achtete darauf, dass Bildsprache, Timing und Übergänge zum Skript passten. So entstanden verständliche und ansprechende Animationen, die die vorgegebenen Inhalte visuell unterstützten.",
+        "additional_info": "Erstes Projekt mit HTML, CSS und JavaScript",
+        "link": "https://studyflix.de/allgemeinwissen/buddha-6089/video"
+    },
+    "sf2": {
+        "id": "code2",
+        "name": "Operation Walküre",
+        "img_path": "studyflix/walkuere.png",
+        "tag": "Lernvideo",
+        "description": "Während meiner Zeit als Werkstudent war ich für die Erstellung von Animationen auf Grundlage eines vorgegebenen Skripts zuständig. Ich entwickelte die Animationen Schritt für Schritt und achtete darauf, dass Bildsprache, Timing und Übergänge zum Skript passten. So entstanden verständliche und ansprechende Animationen, die die vorgegebenen Inhalte visuell unterstützten.",
+        "additional_info": "Lernvideo für Schüler und Studenten.",
+        "link": "https://studyflix.de/geschichte/operation-walkure-5507"
+    },
+    "sf3": {
+        "id": "code3",
+        "name": "Faust 2",
+        "img_path": "studyflix/faust.png",
+        "tag": "Lernvideo",
+        "description": "Während meiner Zeit als Werkstudent war ich für die Erstellung von Animationen auf Grundlage eines vorgegebenen Skripts zuständig. Ich entwickelte die Animationen Schritt für Schritt und achtete darauf, dass Bildsprache, Timing und Übergänge zum Skript passten. So entstanden verständliche und ansprechende Animationen, die die vorgegebenen Inhalte visuell unterstützten.",
+        "additional_info": "Lernvideo für Schüler und Studenten.",
+        "link": "https://studyflix.de/deutsch/faust-2-zusammenfassung-5916"
+    },
+    "sf4": {
+        "id": "code4",
+        "name": "Nibelungenlied",
+        "img_path": "studyflix/nibelungenlied.png",
+        "tag": "Lernvideo",
+        "description": "Während meiner Zeit als Werkstudent war ich für die Erstellung von Animationen auf Grundlage eines vorgegebenen Skripts zuständig. Ich entwickelte die Animationen Schritt für Schritt und achtete darauf, dass Bildsprache, Timing und Übergänge zum Skript passten. So entstanden verständliche und ansprechende Animationen, die die vorgegebenen Inhalte visuell unterstützten.",
+        "additional_info": "Lernvideo für Schüler und Studenten.",
+        "link": "https://studyflix.de/deutsch/nibelungenlied-zusammenfassung-5977"
+    }
+}

@@ -1,6 +1,7 @@
 $("#audios").hide()
 $("#blender").hide()
-$('#code').hide()
+$("#code").hide()
+$('#studyflix').hide()
 
 $(".filter_item").on("click", handleCards)
 
