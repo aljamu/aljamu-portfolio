@@ -2,7 +2,7 @@
     "sf1": {
         "id": "sf1",
         "name": "Wer war Buddha?",
-        "img_path": "studyflix/buddha.png",
+        "img_path": "studyflix/buddha.jpg",
         "tag": "Lernvideo",
         "description": "Während meiner Zeit als Werkstudent war ich für die Erstellung von Animationen auf Grundlage eines vorgegebenen Skripts zuständig. Ich entwickelte die Animationen Schritt für Schritt und achtete darauf, dass Bildsprache, Timing und Übergänge zum Skript passten. So entstanden verständliche und ansprechende Animationen, die die vorgegebenen Inhalte visuell unterstützten.",
         "additional_info": "Lernvideo für Schüler und Studenten.",
@@ -11,7 +11,7 @@
     "sf2": {
         "id": "sf2",
         "name": "Operation Walküre",
-        "img_path": "studyflix/walkuere.png",
+        "img_path": "studyflix/walkuere.jpg",
         "tag": "Lernvideo",
         "description": "Während meiner Zeit als Werkstudent war ich für die Erstellung von Animationen auf Grundlage eines vorgegebenen Skripts zuständig. Ich entwickelte die Animationen Schritt für Schritt und achtete darauf, dass Bildsprache, Timing und Übergänge zum Skript passten. So entstanden verständliche und ansprechende Animationen, die die vorgegebenen Inhalte visuell unterstützten.",
         "additional_info": "Lernvideo für Schüler und Studenten.",
@@ -20,7 +20,7 @@
     "sf3": {
         "id": "sf3",
         "name": "Faust 2",
-        "img_path": "studyflix/faust.png",
+        "img_path": "studyflix/faust.jpg",
         "tag": "Lernvideo",
         "description": "Während meiner Zeit als Werkstudent war ich für die Erstellung von Animationen auf Grundlage eines vorgegebenen Skripts zuständig. Ich entwickelte die Animationen Schritt für Schritt und achtete darauf, dass Bildsprache, Timing und Übergänge zum Skript passten. So entstanden verständliche und ansprechende Animationen, die die vorgegebenen Inhalte visuell unterstützten.",
         "additional_info": "Lernvideo für Schüler und Studenten.",
@@ -29,7 +29,7 @@
     "sf4": {
         "id": "sf4",
         "name": "Nibelungenlied",
-        "img_path": "studyflix/nibelungenlied.png",
+        "img_path": "studyflix/nibelungenlied.jpg",
         "tag": "Lernvideo",
         "description": "Während meiner Zeit als Werkstudent war ich für die Erstellung von Animationen auf Grundlage eines vorgegebenen Skripts zuständig. Ich entwickelte die Animationen Schritt für Schritt und achtete darauf, dass Bildsprache, Timing und Übergänge zum Skript passten. So entstanden verständliche und ansprechende Animationen, die die vorgegebenen Inhalte visuell unterstützten.",
         "additional_info": "Lernvideo für Schüler und Studenten.",

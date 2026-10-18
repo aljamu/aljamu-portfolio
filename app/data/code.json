@@ -2,7 +2,7 @@
     "sf1": {
         "id": "code1",
         "name": "Che Fanpage",
-        "img_path": "code/che.png",
+        "img_path": "code/che.jpg",
         "tag": "Erste Schritte",
         "description": "Nicht die erste Seite, die ich mit HTML, CSS und JavaScript entwickelt habe, aber die Erste in dieser Form und bis zum Start der FiAE-Ausbildung die aufwändigste. Es ist eine Art \"Portfolio\" für meinen Kater Che, der tagsüber im Karree die Nachbarschaft unsicher machen kann. Es war ein Learning-By-Doing Project: Das erste Projekt komplett ohne Tutorial und zum damaligen Zeitpunkt sowieso ohne Hilfe von KI.",
         "additional_info": "Erstes Projekt mit HTML, CSS und JavaScript",
@@ -11,7 +11,7 @@
     "sf2": {
         "id": "code2",
         "name": "Sage Payroll",
-        "img_path": "code/sage.png",
+        "img_path": "code/sage.jpg",
         "tag": "Arbeit",
         "description": "Bereits kurz nach Beginn meiner Ausbildung wurde ich ins Team der Sage Payroll eingebunden. Zu dem Zeitpunkt hieß sie noch Sage Business Cloud Lohnabrechnung (SBCL) oder SBCP (Payroll). Mit den ersten Tickets wurde ich schnell vertraut mit CakePHP und der MVC-Architektur. Im späteren Verlauf wurde ich auch in das c#-Backend eingearbeitet. Seitdem wurden die Tickets und Aufgaben immer größer und damit auch die verbundene Verantwortung. Die Zeit bei Sage empfinde ich als äußerst Lehrreich und ich bin sehr froh bereits in diesem Ausmaß an der Entwicklung beteiligt zu sein.",
         "additional_info": "CakePHP, C#, MVC, OOP, SOAP",
@@ -20,7 +20,7 @@
     "sf3": {
         "id": "code3",
         "name": "Persönliche Website",
-        "img_path": "code/portfolio.png",
+        "img_path": "code/portfolio.jpg",
         "tag": "Portfolio",
         "description": "Eigentlich eine Pflicht, sich als Programmierer und Entwickler eine eigene Webseite zu programmieren. Die Webseite ist nicht KI generiert und wurde auch nicht mit einem CMS entwickelt. Das Design wurde vorab mit einem Mockup-Tool geplant. Diese Seite dient als digitale Visitenkarte, es werden nur die wichtigsten Informationen gezeigt. Sie ist responsiv und lässt sich auch auf Mobilgeräten aufrufen. Dennoch bleibt sie ausbaufähig, was sicherlich in Zukunft passieren wird. Ich hoste die Webseite über einen STRATO-Webserver.",
         "additional_info": "HTML, CSS, JS, JQUERY, PHP",
