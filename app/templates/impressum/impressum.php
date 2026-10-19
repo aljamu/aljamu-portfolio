@@ -12,4 +12,6 @@
     <p>Da meine Seite keine Cookies verwendet und auch keine Tracking- oder Drittanbieter-Skripte einbindet, wird beim Besuch der Seite nichts gespeichert,
             was einen Cookie-Banner erforderlich machen würde. Entsprechend gibt es auf der Seite auch keinen Cookie-Banner, weil keine Cookies im Sinne der typischen Cookie-Einwilligungs-Pflichten gesetzt oder genutzt werden.
     </p>
+    <br>
+    <p>Icons credits: <a href="https://getbootstrap.com/" target="_blank">Bootstrap</a></p>
 </section>
