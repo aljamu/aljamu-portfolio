@@ -3,7 +3,15 @@
         <div class="portfolio-filter-wrapper">
             <h1>Filter:</h1>
             <ul>
-                <li id="li_videos" class="filter_item filter_active">
+                <li id="li_code" class="filter_item filter_active">
+                    <p>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#191B27" class="bi bi-code-square" viewBox="0 0 16 16">
+                            <path d="M14 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2z" />
+                            <path d="M6.854 4.646a.5.5 0 0 1 0 .708L4.207 8l2.647 2.646a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 0 1 .708 0m2.292 0a.5.5 0 0 0 0 .708L11.793 8l-2.647 2.646a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 0 0-.708 0" />
+                        </svg>
+                    </p>
+                </li>
+                <li id="li_videos" class="filter_item">
                     <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#191B27" class="bi bi-film"
                             viewBox="0 0 16 16">
                             <path
@@ -18,13 +26,6 @@
                         </svg>
                     </p>
                 </li>
-                <li id="li_blender" class="filter_item">
-                    <p>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#191B27" class="bi bi-box" viewBox="0 0 16 16">
-                            <path d="M8.186 1.113a.5.5 0 0 0-.372 0L1.846 3.5 8 5.961 14.154 3.5zM15 4.239l-6.5 2.6v7.922l6.5-2.6V4.24zM7.5 14.762V6.838L1 4.239v7.923zM7.443.184a1.5 1.5 0 0 1 1.114 0l7.129 2.852A.5.5 0 0 1 16 3.5v8.662a1 1 0 0 1-.629.928l-7.185 2.874a.5.5 0 0 1-.372 0L.63 13.09a1 1 0 0 1-.63-.928V3.5a.5.5 0 0 1 .314-.464z" />
-                        </svg>
-                    </p>
-                </li>
                 <li id="li_studyflix" class="filter_item">
                     <p>
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#191B27" class="bi bi-person-video3" viewBox="0 0 16 16">
@@ -33,18 +34,17 @@
                         </svg>
                     </p>
                 </li>
-                <li id="li_code" class="filter_item">
+                <li id="li_blender" class="filter_item">
                     <p>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#191B27" class="bi bi-code-square" viewBox="0 0 16 16">
-                            <path d="M14 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2z" />
-                            <path d="M6.854 4.646a.5.5 0 0 1 0 .708L4.207 8l2.647 2.646a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 0 1 .708 0m2.292 0a.5.5 0 0 0 0 .708L11.793 8l-2.647 2.646a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 0 0-.708 0" />
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#191B27" class="bi bi-box" viewBox="0 0 16 16">
+                            <path d="M8.186 1.113a.5.5 0 0 0-.372 0L1.846 3.5 8 5.961 14.154 3.5zM15 4.239l-6.5 2.6v7.922l6.5-2.6V4.24zM7.5 14.762V6.838L1 4.239v7.923zM7.443.184a1.5 1.5 0 0 1 1.114 0l7.129 2.852A.5.5 0 0 1 16 3.5v8.662a1 1 0 0 1-.629.928l-7.185 2.874a.5.5 0 0 1-.372 0L.63 13.09a1 1 0 0 1-.63-.928V3.5a.5.5 0 0 1 .314-.464z" />
                         </svg>
                     </p>
                 </li>
             </ul>
         </div>
     </div>
-    <div id="videos" class="portfolio_cards_wrapper pcw_active">
+    <div id="videos" class="portfolio_cards_wrapper">
         <?php cardGenerator("videos");?>
     </div>
     <div id="audios" class="portfolio_cards_wrapper">
@@ -56,7 +56,7 @@
     <div id="studyflix" class="portfolio_cards_wrapper">
         <?php cardGenerator("studyflix");?>
     </div>
-    <div id="code" class="portfolio_cards_wrapper">
+    <div id="code" class="portfolio_cards_wrapper pcw_active">
         <?php cardGenerator("code");?>
     </div>
 </section>
@@ -68,11 +68,7 @@
                 <span class="text_highlight_color"> sondern bin nur leidenschaftlich neugierig."</span>
                 <span class="citation"> Albert Einstein</span>
             </h1>
-            <p class="text_justify">Dieses Zitat passt sehr gut zu dem, was mich antreibt. Ich bin von Natur aus
-                sehr neugierig und habe einen
-                ausgeprägten Wissensdrang in verschiedenste Themenfelder – von Weltgeschehen und Politik über
-                Medien, Marketing und Public Relations bis hin zu Informatik. Mein Anspruch ist es, Zusammenhänge zu
-                verstehen, Neues schnell zu lernen und Erkenntnisse gezielt anzuwenden.</p>
+            <p class="text_justify">Dieses Zitat bringt sehr gut auf den Punkt, was mich antreibt: Ich bin von Natur aus neugierig und interessiere mich für vielfältige Themen – von Weltgeschehen und Politik über Tier- und Klimaschutz sowie Medien, Marketing und Public Relations bis hin zur Informatik. Dabei möchte ich Zusammenhänge verstehen, mich schnell in Neues einarbeiten und meine Erkenntnisse gezielt in die Praxis übertragen.</p>
         </div>
         <img style="width: 250px; margin: 10px 0px 10px 100px;" src="assets/img/me.jpg" alt="A Picture of Me">
     </div>

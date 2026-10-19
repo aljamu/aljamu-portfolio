@@ -25,5 +25,14 @@
         "description": "Eigentlich eine Pflicht, sich als Programmierer und Entwickler eine eigene Webseite zu programmieren. Die Webseite ist nicht KI generiert und wurde auch nicht mit einem CMS entwickelt. Das Design wurde vorab mit einem Mockup-Tool geplant. Diese Seite dient als digitale Visitenkarte, es werden nur die wichtigsten Informationen gezeigt. Sie ist responsiv und lässt sich auch auf Mobilgeräten aufrufen. Dennoch bleibt sie ausbaufähig, was sicherlich in Zukunft passieren wird. Ich hoste die Webseite über einen STRATO-Webserver.",
         "additional_info": "HTML, CSS, JS, JQUERY, PHP",
         "link": "https://aljamu.de"
+    },
+    "sf4": {
+        "id": "code4",
+        "name": "Blog (WIP)",
+        "img_path": "code/blog.jpg",
+        "tag": "Blog",
+        "description": "Seit gut 5 Jahren nutze ich nun kein Instagram mehr. Die Gründe dafür waren vielfältig. Trotzdem gibt es immer mal wieder den Moment, an dem man seine Meinung offen Kund tun muss. Ob sich das jemals jemand anschauen wird... Ich denke kaum. Aber ich habe einen Ort, an dem ich meine Gedanken los werden kann. Umgesetzt wird der Blog mit dem super leichtgewichtigen PHP-Framework FlightPHP. Es wird zur Bildung von Erfahrung ohne KI entwickelt. Gehostet wird der Blog mit Datenbank über einen gängigen Hoster.",
+        "additional_info": "Work in Progress",
+        "link": ""
     }
 }

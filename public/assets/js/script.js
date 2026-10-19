@@ -1,6 +1,6 @@
 $("#audios").hide()
 $("#blender").hide()
-$("#code").hide()
+$("#videos").hide()
 $('#studyflix').hide()
 
 $(".filter_item").on("click", handleCards)
@@ -47,5 +47,5 @@ function overlayClose(){
 }
 
 $(window).on("load", function() {
-    $("#loader").hide();
+    $("#loader").fadeOut("slow");
 })
